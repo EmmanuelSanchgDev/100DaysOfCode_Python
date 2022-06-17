@@ -6,7 +6,10 @@
 
 - comentarios -> podemos agregar comentarios a nuestro codigo con el simbolo # ```# esto es un comentario```, todo lo que este como comentario sera ignorado por lo que no afecta la ejecucion
 
+- tambien podemos anidar funciones ```print("Hola " + input("Como te llamas?"))``` elresultado seria 1ro pregunta el nombre y despues lo saluda usando el nombre. ```# Hola emmanuel```
+
 - funcion len() -> la funcion len devuelve la longitud(cantidad de caracteres) de un string como un valor numerico ```print(len("jesus"))``` como resultado seria ```#5```
+
 
 - manipulacion de cadenas
 
