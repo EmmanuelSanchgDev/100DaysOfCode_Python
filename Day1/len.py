@@ -1,3 +1,3 @@
 # print(len("jesus"))
 
-print(len(input("escribe tu nombre?")))
+print( len( input("escribe tu nombre?") ) )
