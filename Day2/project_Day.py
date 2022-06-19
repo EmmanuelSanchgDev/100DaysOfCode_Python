@@ -13,5 +13,7 @@ total_propina = ( (propina_int / 100) * total_float ) + total_float
 pago_fracionado = total_propina / personas_int
 # limitalos decimales
 pago_fracionado = round(pago_fracionado, 2)
+# ""format() devuelve el resultado con 2 decimales aunque sea .0
+pago_fracionado = "{:.2f}".format(pago_fracionado)
 # imprime
 print( f"el pago por persona es: ${pago_fracionado}" )
