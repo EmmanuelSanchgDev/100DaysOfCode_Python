@@ -34,4 +34,8 @@
     - *= es lo mismo a  ``` num1 = num1 * num1```
     - /= es lo mismo a  ``` num1 = num1 / num1```
 
-    ## f-string (cadena f)
+## f-string (cadena f)
+    - podemos concatenar en un print() convierte nuestras variables en string automatocamente
+      ```
+        print(f"Hola {name}")
+      ```
