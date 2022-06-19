@@ -14,4 +14,4 @@ pago_fracionado = total_propina / personas_int
 # limitalos decimales
 pago_fracionado = round(pago_fracionado, 2)
 # imprime
-print( f"el pago por persona es: {pago_fracionado}" )
+print( f"el pago por persona es: ${pago_fracionado}" )
