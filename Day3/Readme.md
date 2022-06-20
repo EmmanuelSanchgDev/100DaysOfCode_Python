@@ -43,3 +43,21 @@
         ```
             not 5 > 2 # devuelve falso (aunque si es verdad)
         ```
+## lower()
+    - nos permite anvertir todo un texto en minusculas
+        ```
+        hola = HolA
+        print( hola.lower() ) # imprime -> hola
+        ```
+## upper()
+    - nospermite convertir todo un texto en mayusculas
+        ```
+        hola = hola
+        print( hola.upper() ) # imprime -> HOLA
+        ```
+## count()
+    - devuelve la cantidad de veces que se repite un caracter en una cadena String
+        ```
+        name = "emmanuel"
+        print( name.count("m") ) # imprime -> 2 (es sencible a mayus)
+        ```
