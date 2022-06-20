@@ -61,3 +61,5 @@
         name = "emmanuel"
         print( name.count("m") ) # imprime -> 2 (es sencible a mayus)
         ```
+## escapar carateres
+    - podemos escapar caracteres con \ si quremos que se interprete quizas un salto de linea \n o talvez un apostrofe you\'re
